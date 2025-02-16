@@ -1,0 +1,131 @@
+.main-container{
+    height: 100vh;
+    width: 100vw;
+    /* background-image: url("https://res.cloudinary.com/dh0e3kfeh/image/upload/v1739706952/DALL_E_2025-02-16_17.24.59_-_A_clean_and_simple_light-colored_background_image_with_a_minimalistic_design_suitable_for_a_professional_medical_AI_application._The_design_should_fe_sbkzac.webp"); */
+    display: flex;
+    background-color: #E3F2FD;
+    /* background-size: cover; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-card{
+    background-color: white;
+    border-radius: 15px;
+    width: 40%;
+    height: 40%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.heading{
+    font-size: 48px;
+    font-family: "Lato", sans-serif;
+    color: #2C3E50 ;
+    text-align: center;
+}
+
+
+.my-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #D1D9E6; /* Light gray border */
+    border-radius: 5px;
+    background-color: #F8F9FA; /* Matches background */
+    color: #2C3E50; /* Dark blue-gray text */
+    outline: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input:focus {
+    border-color: #007BFF; /* Blue focus border */
+    background-color: #ffffff; /* White background on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  .my-button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007BFF; /* Primary Blue */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 18px;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker Blue on Hover */
+  }
+  
+  button:active {
+    transform: scale(0.98); /* Slight press effect */
+  }
+  
+  button:disabled {
+    background-color: #A9CCE3; /* Light gray-blue for disabled state */
+    cursor: not-allowed;
+  }
+  
+  .error-msg{
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: "Lato", sans-serif;
+  }
+
+
+  .result-card{
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 75%;
+    height:80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;   
+  }
+
+  .prediction-heading{
+    font-size: 48px;
+    font-family: "Lato", sans-serif;
+    color: #2C3E50 ;
+    text-align: center;
+  }
+
+  .result-img{
+    width: 40%;
+    height: 210px;
+    border-radius: 15px;
+  }
+.result-text{
+    font-size: 24px;
+    font-family: "Lato", sans-serif;
+    color: #2C3E50 ;
+    text-align: center;
+    margin-top: 20px;
+    list-style-type: circle;
+}
+
+.result-text-item{
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    color: #2C3E50 ;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+strong{
+    margin-left:auto;
+}
